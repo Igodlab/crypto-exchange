@@ -1,0 +1,30 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App-css';
+
+function App() {
+    return (
+        <div classNAme="App">
+            <header classNAme="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h1 Learn React bitch /h1>
+                
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Ticker</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody><
+                    <Coin name="Cardano" ticker="ADA" price="$1000" />
+                    <Coin name="Bitcoin" ticker="BTC" price="$300000" />
+                </tbody>	
+            </table>
+        </div>
+    );
+}
+
+export default App;
